@@ -41,3 +41,8 @@
      Delete All relationship and nodes:
      match (n) optional match (n)-[r]-() delete n,r
      
+     
+     
+     Find All relationship and nodes: 
+     match (n) return n;
+     
