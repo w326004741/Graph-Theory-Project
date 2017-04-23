@@ -63,10 +63,10 @@
 ## Structure
               
               
-                                                                                              Room
+                                                                                              Room      Room
                                                                                                |         /
                                                                                                 Room_For  
-                                                       Lecturer                Topic_Of        |       /
+                Year_Of                               Lecturer                Topic_Of         |       /
     Year(Year3)--------->Course(Software Developmemt)---------->Lecturer(Ian)--------->Subject(Graph Theory)
                                                                                                |      \
                                                                                                 Room_For  
