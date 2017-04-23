@@ -60,15 +60,7 @@
      Find All relationship and nodes: 
      match (n) return n;
 
-## Structure
-              
-              
-                                                                                              Room      Room
-                                                                                               |         /
-                                                                                                Room_For  
-                Year_Of                               Lecturer                Topic_Of         |       /
-    Year(Year3)--------->Course(Software Developmemt)---------->Lecturer(Ian)--------->Subject(Graph Theory)
-                                                                                               |      \
-                                                                                                Room_For  
-                                                                                               |        \
-                                                                                             Room        Room
+## Structure 
+                        Lecturer          Topic_Of         Room_For
+         Year--->Course--------->Lecturer--------->Subject--------->Room
+                                                                                                
