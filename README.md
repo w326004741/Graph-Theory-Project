@@ -6,6 +6,20 @@
      Neo4j DownloadLink https://neo4j.com/download/
      
  
+ 
+ 
+ 
+## Node Labels: 
+        Course, Lecturer, Room, Subject, Year.
+         
+ 
+## Relationship types: 
+        Lecturer, Room_For, Topic_Of, Year_Of. 
+        
+    
+
+## Property Keys: 
+        Day, RoomNumber, StudentGroup, Time, Type, course, gr, name, time, type, week, year.        
  ##  Usage
      Create a node with the label Person, and one property: 
      create (n:Person {name:"Jason"}) return n;
