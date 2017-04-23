@@ -53,10 +53,10 @@
      
      
      Delete All relationship and nodes:
-     match (n) optional match (n)-[r]-() delete n,r
+     match (n) optional match (n)-[r]-() delete n,rfile:///Users/weichenwang/Desktop/Project%20Screenshot.png
      
      
      
      Find All relationship and nodes: 
      match (n) return n;
-     
+
